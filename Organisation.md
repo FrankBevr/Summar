@@ -4,7 +4,11 @@
 | :------------------- | :------------------------------- | :------------------------------- | :---- |
 | Ideation             | Sun Apr 14 08:35:00 AM CEST 2024 | Sun Apr 14 08:50:00 AM CEST 2024 | 0:15  |
 | Ideation - Spelliong | Sun Apr 14 08:50:00 AM CEST 2024 | Sun Apr 14 08:55:00 AM CEST 2024 | 0:05  |
-| Blender              | Sun Apr 14 08:55:00 AM CEST 2024 |                                  |       |
+| Blender              | Sun Apr 14 09:00:00 AM CEST 2024 | Sun Apr 14 10:00:00 AM CEST 2024 | 1:00  |
+| Blender              | Sun Apr 14 10:10:00 AM CEST 2024 | Sun Apr 14 10:40:00 AM CEST 2024 | 0:30  |
+| Blender - Texture    | Sun Apr 14 10:40:00 AM CEST 2024 | Sun Apr 14 11:05:00 AM CEST 2024 | 0:25  |
+| Blender - Rig        | Sun Apr 14 11:15:00 AM CEST 2024 | Sun Apr 14 11:45:00 AM CEST 2024 | 0:30  |
+| Blender - Animate    | Sun Apr 14 11:45:00 AM CEST 2024 |                                  |       |
 
 ## Ideation
 
@@ -40,11 +44,21 @@ Let's prepare ⚒️
 
 ## Build
 
+- [ ] Register
+  - [ ] Get an invitation code
+- [ ] Make a forum Post
+
 ### Blender
 
 - [ ] Create a Skeleton
-  - [ ] Model
-  - [ ] Texture
+  - [x] Model
+    - [x] Base
+    - [x] Arm
+    - [x] Chest
+    - [x] Legs
+    - [x] Head
+  - [x] Texture
+  - [x] Quick Ortho Render
   - [ ] Rig
   - [ ] Animate
   - [ ] Export
