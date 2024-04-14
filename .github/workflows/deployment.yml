@@ -1,0 +1,20 @@
+name: deployment
+
+on:
+  push:
+    branches:
+      - deployment # replace this with your current branch name
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Build and Deploy
+        uses: actions/github-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./ # replace this with the folder you want to deploy if needed
