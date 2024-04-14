@@ -8,7 +8,9 @@
 | Blender              | Sun Apr 14 10:10:00 AM CEST 2024 | Sun Apr 14 10:40:00 AM CEST 2024 | 0:30  |
 | Blender - Texture    | Sun Apr 14 10:40:00 AM CEST 2024 | Sun Apr 14 11:05:00 AM CEST 2024 | 0:25  |
 | Blender - Rig        | Sun Apr 14 11:15:00 AM CEST 2024 | Sun Apr 14 11:45:00 AM CEST 2024 | 0:30  |
-| Blender - Animate    | Sun Apr 14 11:45:00 AM CEST 2024 |                                  |       |
+| Blender - Animate    | Sun Apr 14 11:45:00 AM CEST 2024 | Sun Apr 14 12:05:00 AM CEST 2024 | 0:20  |
+| Blender - Animate    | Sun Apr 14 17:00:00 AM CEST 2024 | Sun Apr 14 18:10:00 AM CEST 2024 | 1:10  |
+| Total                | -                                | -                                | 4:15  |
 
 ## Ideation
 
@@ -50,7 +52,7 @@ Let's prepare ⚒️
 
 ### Blender
 
-- [ ] Create a Skeleton
+- [x] Create a Skeleton
   - [x] Model
     - [x] Base
     - [x] Arm
@@ -59,6 +61,12 @@ Let's prepare ⚒️
     - [x] Head
   - [x] Texture
   - [x] Quick Ortho Render
-  - [ ] Rig
-  - [ ] Animate
-  - [ ] Export
+  - [x] Rig
+  - [x] Animate
+    - [x] TPose
+    - [x] Idle
+    - [x] Walk
+  - [x] Quick Ortho Render
+  - [x] Export
+  - [x] Test
+    - Note: 0 point is off, but ok
