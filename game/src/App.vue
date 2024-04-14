@@ -1,20 +1,34 @@
 <script setup lang="ts">
 import { TresCanvas } from "@tresjs/core";
+import { OrbitControls } from "@tresjs/cientos";
+import { BasicShadowMap, SRGBColorSpace, NoToneMapping } from "three";
+import UgglyBunny from "./components/UgglyBunny.vue";
+
+const gl = {
+  clearColor: "#F78B3D",
+  shadows: true,
+  alpha: false,
+  shadowMapType: BasicShadowMap,
+  outputColorSpace: SRGBColorSpace,
+  toneMapping: NoToneMapping,
+  windowSize: true,
+};
 </script>
-
 <template>
-  <main>
-    <TresCanvas clear-color="#82DBC5" window-size>
-      <TresPerspectiveCamera :position="[3, 3, 3]" :look-at="[0, 0, 0]" />
-      <TresMesh>
-        <TresTorusGeometry :args="[1, 0.5, 16, 32]" />
-        <TresMeshBasicMaterial color="orange" />
-      </TresMesh>
-      <TresAmbientLight :intensity="1" />
-    </TresCanvas>
-  </main>
+  <TresCanvas v-bind="gl">
+    <TresPerspectiveCamera :position="[2, 2, 9]" :look-at="[0, 2, 0]" />
+    <OrbitControls />
+    <Suspense>
+      <UgglyBunny />
+    </Suspense>
+    <TresDirectionalLight
+      color="#F78B3D"
+      :position="[3, 3, 3]"
+      :intensity="1"
+    />
+    <TresAmbientLight :intensity="2" />
+  </TresCanvas>
 </template>
-
 <style>
 html,
 body {
