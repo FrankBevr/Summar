@@ -1,16 +1,23 @@
 # Organisation
 
-| Doing                | ClockIn                          | ClockOut                         | Total |
-| :------------------- | :------------------------------- | :------------------------------- | :---- |
-| Ideation             | Sun Apr 14 08:35:00 AM CEST 2024 | Sun Apr 14 08:50:00 AM CEST 2024 | 0:15  |
-| Ideation - Spelliong | Sun Apr 14 08:50:00 AM CEST 2024 | Sun Apr 14 08:55:00 AM CEST 2024 | 0:05  |
-| Blender              | Sun Apr 14 09:00:00 AM CEST 2024 | Sun Apr 14 10:00:00 AM CEST 2024 | 1:00  |
-| Blender              | Sun Apr 14 10:10:00 AM CEST 2024 | Sun Apr 14 10:40:00 AM CEST 2024 | 0:30  |
-| Blender - Texture    | Sun Apr 14 10:40:00 AM CEST 2024 | Sun Apr 14 11:05:00 AM CEST 2024 | 0:25  |
-| Blender - Rig        | Sun Apr 14 11:15:00 AM CEST 2024 | Sun Apr 14 11:45:00 AM CEST 2024 | 0:30  |
-| Blender - Animate    | Sun Apr 14 11:45:00 AM CEST 2024 | Sun Apr 14 12:05:00 AM CEST 2024 | 0:20  |
-| Blender - Animate    | Sun Apr 14 17:00:00 AM CEST 2024 | Sun Apr 14 18:10:00 AM CEST 2024 | 1:10  |
-| Total                | -                                | -                                | 4:15  |
+| Doing                                | ClockIn                          | ClockOut                         | Total |
+| :----------------------------------- | :------------------------------- | :------------------------------- | :---- |
+| Ideation                             | Sun Apr 14 08:35:00 AM CEST 2024 | Sun Apr 14 08:50:00 AM CEST 2024 | 0:15  |
+| Ideation - Spelliong                 | Sun Apr 14 08:50:00 AM CEST 2024 | Sun Apr 14 08:55:00 AM CEST 2024 | 0:05  |
+| Blender                              | Sun Apr 14 09:00:00 AM CEST 2024 | Sun Apr 14 10:00:00 AM CEST 2024 | 1:00  |
+| Blender                              | Sun Apr 14 10:10:00 AM CEST 2024 | Sun Apr 14 10:40:00 AM CEST 2024 | 0:30  |
+| Blender - Texture                    | Sun Apr 14 10:40:00 AM CEST 2024 | Sun Apr 14 11:05:00 AM CEST 2024 | 0:25  |
+| Blender - Rig                        | Sun Apr 14 11:15:00 AM CEST 2024 | Sun Apr 14 11:45:00 AM CEST 2024 | 0:30  |
+| Blender - Animate                    | Sun Apr 14 11:45:00 AM CEST 2024 | Sun Apr 14 12:05:00 AM CEST 2024 | 0:20  |
+| Blender - Animate                    | Sun Apr 14 17:00:00 AM CEST 2024 | Sun Apr 14 18:10:00 AM CEST 2024 | 1:10  |
+| Total                                | -                                | -                                | 4:15  |
+| Deployment - Basics                  | Sun Apr 14 18:10:00 AM CEST 2024 | Sun Apr 14 19:05:00 AM CEST 2024 | 0:55  |
+| Bureaucracy                          | Sun Apr 14 19:05:00 AM CEST 2024 | Sun Apr 14 19:25:00 AM CEST 2024 | 0:20  |
+| Deployment - Show Model              | Sun Apr 14 20:10:00 AM CEST 2024 | Sun Apr 14 20:45:00 AM CEST 2024 | 0:35  |
+| Deployment - Show Model              | Sun Apr 14 20:50:00 AM CEST 2024 | Sun Apr 14 22:30:00 AM CEST 2024 | 1:40  |
+| Deployment - Community Communication | Sun Apr 14 22:30:00 AM CEST 2024 | Sun Apr 14 23:00:00 AM CEST 2024 | 0:30  |
+| Deployment - Again                   | Mon Apr 15 06:20:34 AM CEST 2024 | Mon Apr 15 07:35:00 AM CEST 2024 | 1:15  |
+| Blender - Create a Tower             | Mon Apr 15 07:40:09 AM CEST 2024 | Mon Apr 15 08:45:00 AM CEST 2024 | 1:05  |
 
 ## Ideation
 
@@ -46,9 +53,10 @@ Let's prepare ⚒️
 
 ## Build
 
-- [ ] Register
-  - [ ] Get an invitation code
-- [ ] Make a forum Post
+- [x] Register
+  - [x] Get an invitation code
+- [x] Make a forum Post
+- [ ] search help for correct uploading
 
 ### Blender
 
@@ -70,3 +78,17 @@ Let's prepare ⚒️
   - [x] Export
   - [x] Test
     - Note: 0 point is off, but ok
+
+### Development
+
+- [x] Write HelloSummar Page
+- [x] Deploy it
+  - [x] do github action, to annyoing
+  - [x] do surge, works
+- [x] Add TresJS
+- [x] Load a model
+- [x] load skeleton
+- [x] try suggestion, kinda works ^^' No textures
+- [x] Make a Tower
+- [x] Add Tower to Scene
+- [ ] Make Summoning Animation
