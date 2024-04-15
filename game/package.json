@@ -17,6 +17,7 @@
     "vue": "^3.4.21"
   },
   "devDependencies": {
+    "@rollup/plugin-html": "^1.0.3",
     "@tsconfig/node20": "^20.1.4",
     "@types/node": "^20.12.5",
     "@types/three": "^0.163.0",

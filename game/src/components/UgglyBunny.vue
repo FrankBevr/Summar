@@ -1,18 +1,19 @@
 <script setup lang="ts">
 import { ref } from "vue";
 import { useAnimations, useGLTF } from "@tresjs/cientos";
+import { useLoader } from "@tresjs/core";
 
-const { scene: model, animations } = await useGLTF(
-  "https://raw.githubusercontent.com/Tresjs/assets/main/models/gltf/ugly-naked-bunny/ugly-naked-bunny-animated.gltf",
-);
-
+const url = "/sketo.glb";
+const { scene: model, animations } = await useGLTF(url);
+model.crossOrigin = "";
 const { actions } = useAnimations(animations, model);
 
-const currentAction = ref(actions.Greeting);
-
+const currentAction = ref(actions.Walk);
 currentAction.value.play();
 </script>
 
 <template>
-  <primitive :object="model" />
+  <Suspense>
+    <primitive :object="model" position-y="-2.5" scale="0.5" rotate-y="135" />
+  </Suspense>
 </template>
